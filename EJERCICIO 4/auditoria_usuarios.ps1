@@ -1,14 +1,17 @@
+#Editado por Xochilpilli Castillo Andrade 19/08/2025
+
+
 $usuarios=Get-LocalUser
 $sinLogon=@()
 $conLogon=@()
 foreach ($u in $usuarios) {
     if (-not  $u.LastLogon) {
-        $sinLogon+= "$($u.Name): Estado=$($u.Enabled), Último acceso= NUNCA"
+        $sinLogon+= "$($u.Name): Estado=$($u.Enabled), ï¿½ltimo acceso= NUNCA"
     } else {
-        $conLogon+="$($u.Name): Estado=$($u.Enabled), Último acceso= $($u.LastLogon)"
+        $conLogon+="$($u.Name): Estado=$($u.Enabled), ï¿½ltimo acceso= $($u.LastLogon)"
     }
 }
-$sinLogon|Out-File -FilePath "Y:\TERCER SEMESTRE\programación para ciberseguridad\usuarios_sin_logon.txt"
-$conLogon|Out-File -FilePath "Y:\TERCER SEMESTRE\programación para ciberseguridad\usuarios_con_logon.txt"
-Write-Output "`n Usuarios que nunca han iniciado sesión: "$sinLogon| ForEach-Object{Write-Output $_}
-Write-Output "`n Usuarios que sí han iniciado sesión:"$conLogon|ForEach-Object{Write-Output $_}
+$sinLogon|Out-File -FilePath "Y:\TERCER SEMESTRE\programaciï¿½n para ciberseguridad\usuarios_sin_logon.txt"
+$conLogon|Out-File -FilePath "Y:\TERCER SEMESTRE\programaciï¿½n para ciberseguridad\usuarios_con_logon.txt"
+Write-Output "`n Usuarios que nunca han iniciado sesiï¿½n: "$sinLogon| ForEach-Object{Write-Output $_}
+Write-Output "`n Usuarios que sï¿½ han iniciado sesiï¿½n:"$conLogon|ForEach-Object{Write-Output $_}
