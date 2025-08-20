@@ -7,7 +7,7 @@ ambiguedad.
 
 Este repositorio contiene una serie de ejercicios prácticos diseñados para introducir conceptos esenciales de administración de sistemas, scripting y auditoría básica de seguridad en entornos Windows y Linux.
 
-#Contenido
+##Contenido
 
 El repositorio incluye los siguientes scripts y ejercicios:
 
