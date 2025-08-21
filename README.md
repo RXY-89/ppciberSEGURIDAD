@@ -20,6 +20,7 @@ El repositorio incluye los siguientes scripts y ejercicios:
     *   `AuditoriaBasica.psm1` - Módulo de PowerShell con funciones de auditoría.
     *   `AuditoriaBasica.psd1` - Manifiesto del módulo.
     *   `PRINCIPAL.ps1` - Script principal que utiliza el módulo.
+    *   **Ejercicio 7:** Las evidencias de esta actividad 9en mi caso lo hice directamente desde git porque ya me habían enseñado otras personas a hacerlo de esa forma y lo considero más sencillo y rápido).
 
 ## Tareas de Ciberseguridad que Resuelven
 
