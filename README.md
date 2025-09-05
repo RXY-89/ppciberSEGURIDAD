@@ -46,3 +46,13 @@ El desarrollo de estos ejercicios me permitió consolidar y aprender:
 3.  **Fundamentos de Bash:** Uso de comandos esenciales en Linux para navegación, administración del sistema y red dentro de un entorno WSL.
 4.  **Pensamiento de Auditoría:** Cómo abordar un problema de seguridad (como cuentas huérfanas o servicios no autorizados) desde una perspectiva analítica y automatizable.
 5.  **Flujos de Trabajo Eficientes:** El uso de pipelines (`|`) para redirigir la salida de comandos, tanto para filtrar datos como para guardarlos en archivos, es una habilidad fundamental que se aplica en todos los ejercicios.
+
+
+
+
+
+
+EJERCICIO 17
+
+Nota importante:
+Se debe de crear un archivo llamado apikey.txt y debe de tener únicamente la API key de la API haveibeenpwned. Se debe asegurar de crearlo en la misma carpeta que donde tendrán verificar_correo.py.
