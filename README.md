@@ -48,6 +48,6 @@ Este proyecto se distribuye con fines educativos. El uso de la API de Have I Bee
 
 ## Contacto, dudas, quejas, comentarios o sugerencias.
 
-Para dudas técnicas o sugerencias, puedes dejar comentarios en el repositorio de GitHub.
+Para dudas técnicas, comentarios, quejas o incluso sugerencias, ¡Siéntete libre de dejar un comentario en el repositorio de GitHub!
 
 
