@@ -38,9 +38,9 @@ README.md
 
 ## Créditos del script:
 
-Desarrollado por **Xochilpilli Castillo Andrade**  
-Materia: *Programación para Ciberseguridad*  
-Grupo: *062*
+Desarrollado por Xochilpilli Castillo Andrade 
+Materia: Programación para Ciberseguridad
+Grupo: 062
 
 ## Licencia
 
