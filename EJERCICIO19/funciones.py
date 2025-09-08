@@ -4,6 +4,7 @@ import os
 import getpass
 import requests
 import argparse
+
 def leer_apikey(path="apikey.txt"):
         if not os.path.exists(path):
                 clave= getpass.getpass("Ingresa tu API key: ")
